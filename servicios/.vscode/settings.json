@@ -1,0 +1,57 @@
+{
+    "microprofile.tools.validation.unknown.excluded": [
+        "*/mp-rest/providers/*/priority",
+        "mp.openapi.schema.*",
+        "kafka-streams.*",
+        "camel.*",
+        "quarkus.datasource.password"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "facturacion_electronica",
+            "database": "facturacion_electronica",
+            "username": "root",
+            "password": "u3nF8kCJX4Rr",
+            "connectionTimeout": 30
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "database": "gestion_transacciones",
+            "name": "gestion_transacciones",
+            "username": "root",
+            "password": "u3nF8kCJX4Rr",
+            "connectionTimeout": 30
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "gestion_usuarios",
+            "database": "gestion_usuarios",
+            "username": "root",
+            "password": "u3nF8kCJX4Rr",
+            "connectionTimeout": 30
+        }
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
