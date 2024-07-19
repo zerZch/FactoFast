@@ -1,0 +1,12 @@
+[submodule "servicios/authenticator-api"]
+	path = servicios/authenticator-api
+	url = https://github.com/hydramaven/authenticator-api.git
+[submodule "servicios/gestion-usuarios"]
+	path = servicios/gestion-usuarios
+	url = https://github.com/zerZch/Servicio-web-de-gesti-n-de-usuarios.git
+[submodule "servicios/gestion-transacciones"]
+	path = servicios/gestion-transacciones
+	url = https://github.com/Brokennncve/GestionDeTransacciones.git
+[submodule "servicios/facturacion-electronica"]
+	path = servicios/facturacion-electronica
+	url = https://github.com/flopero29/Servicio-Web-Facturacion.git
